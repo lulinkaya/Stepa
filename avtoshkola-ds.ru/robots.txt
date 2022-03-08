@@ -1,0 +1,127 @@
+User-agent: *
+User-agent: Baiduspider
+User-agent: Google
+User-agent: Mail.Ru
+User-agent: Yandex
+Disallow: /*.doc$
+Disallow: /*.docm$
+Disallow: /*.docx$
+Disallow: /*.dot$
+Disallow: /*.dotm$
+Disallow: /*.dotx$
+Disallow: /*.key$
+Disallow: /*.numbers$
+Disallow: /*.odc$
+Disallow: /*.odf$
+Disallow: /*.odg$
+Disallow: /*.odi$
+Disallow: /*.odm$
+Disallow: /*.odp$
+Disallow: /*.ods$
+Disallow: /*.odt$
+Disallow: /*.otc$
+Disallow: /*.otf$
+Disallow: /*.otg$
+Disallow: /*.oth$
+Disallow: /*.oti$
+Disallow: /*.otp$
+Disallow: /*.ots$
+Disallow: /*.ott$
+Disallow: /*.pages$
+Disallow: /*.pdf$
+Disallow: /*.php$
+Disallow: /*?*=
+Disallow: /*&*=
+Disallow: /*action=
+Disallow: /*s=
+Disallow: /wp-admin
+Disallow: /xmlrpc.php
+Disallow: /*?replytocom
+Disallow: /?replytocom
+Disallow: /*?replytocom2
+Disallow: /?replytocom2
+
+
+User-agent: Mail.Ru
+User-agent: Yandex
+Allow: /
+Host: https://avtoshkola-ds.ru
+Clean-param: s&action
+
+User-agent: AhrefsBot
+User-agent: BlackWidow
+User-agent: ChinaClaw
+User-agent: Custo
+User-agent: DISCo
+User-agent: Dotbot
+User-agent: Download Demon
+User-agent: eCatch
+User-agent: EirGrabber
+User-agent: EmailSiphon
+User-agent: EmailWolf
+User-agent: Exabot
+User-agent: Express WebPictures
+User-agent: ExtractorPro
+User-agent: EyeNetIE
+User-agent: FlashGet
+User-agent: GetRight
+User-agent: GetWeb!
+User-agent: Gigabot
+User-agent: Go-Ahead-Got-It
+User-agent: Go!Zilla
+User-agent: GrabNet
+User-agent: Grafula
+User-agent: HMView
+User-agent: HTTrack
+User-agent: ia_archiver
+User-agent: Image Stripper
+User-agent: Image Sucker
+User-agent: Indy Library
+User-agent: InterGET
+User-agent: Internet Ninja
+User-agent: JetCar
+User-agent: JOC Web Spider
+User-agent: larbin
+User-agent: LeechFTP
+User-agent: Mass Downloader
+User-agent: MIDown tool
+User-agent: Mister PiX
+User-agent: MJ12bot
+User-agent: Navroad
+User-agent: NearSite
+User-agent: Net Vampire
+User-agent: NetAnts
+User-agent: NetSpider
+User-agent: NetZIP
+User-agent: Octopus
+User-agent: Offline Explorer
+User-agent: Offline Navigato
+User-agent: PageGrabber
+User-agent: pavuk
+User-agent: pcBrowser
+User-agent: RealDownload
+User-agent: ReGet
+User-agent: Rogerbot
+User-agent: SiteSnagger
+User-agent: SmartDownload
+User-agent: SuperBot
+User-agent: SuperHTTP
+User-agent: Surfbot
+User-agent: tAkeOut
+User-agent: VoidEYE
+User-agent: WebAuto
+User-agent: WebCopier
+User-agent: WebFetch
+User-agent: WebLeacher
+User-agent: WebReaper
+User-agent: WebSauger
+User-agent: WebStripper
+User-agent: WebWhacker
+User-agent: WebZIP
+User-agent: Wget
+User-agent: Widow
+User-agent: Xenu Link Sleuth
+User-agent: WWWOFFLE
+User-agent: Zeus
+
+Sitemap: https://avtoshkola-ds.ru/sitemap_index.xml

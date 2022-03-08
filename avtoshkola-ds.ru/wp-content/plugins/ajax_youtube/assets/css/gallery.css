@@ -1,0 +1,122 @@
+.theme-video-wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.theme-video-wrap .youtube,
+.theme-video-wrap iframe {
+    width: 49%;
+    height: 190px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.youtube {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.youtube .play {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+}
+
+.youtube .play svg {
+    transition: all 0.2s ease-out;
+    width: 50px;
+}
+
+.youtube .play:hover svg path:first-child {
+    fill: #ff0000 !important;
+    fill-opacity: 1 !important;
+    transition: all .2s ease;
+}
+
+/* responsive */
+.item-responsive {
+    position: relative; /* относительное позиционирование */
+}
+
+.item-responsive:before {
+    display: block; /* отображать элемент как блок */
+    content: ""; /* содержимое псевдоэлемента */
+    width: 100%; /* ширина элемента */
+}
+
+.item-responsive > .content_responsive,
+.item-responsive > iframe {
+    position: absolute; /* абсолютное положение элемент */
+    /* положение элемента */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.youtube.content_responsive {
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-16by9 {
+    padding-top: 56.25%; /* (9:16)*100% */
+    /*background-color: red;*/
+}
+
+/* При необходимости (для блоков, имеющих данные классы) */
+.item-4by3 {
+    padding-top: 75%; /* (3:4)*100% */
+    /*background-color: green;*/
+}
+
+.item-2by1 {
+    padding-top: 50%; /* (1:2)*100% */
+    /*background-color: yellow;*/
+}
+
+.item-1by1 {
+    padding-top: 100%; /* (1:1)*100% */
+    /*background-color: magenta;*/
+}
+
+.video_resp_shablon {
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.video_resp_shablon .vrh_item:nth-child(n+3) {
+    margin-top: 20px
+}
+
+.vrh_item {
+    width: calc(50% - 9px);
+}
+
+/*адаптивная верстка*/
+@media (max-width: 600px) {
+    .vrh_item {
+        width: 100%;
+        margin-top: 20px
+    }
+}

@@ -1,0 +1,3 @@
+jQuery(document).ready(function($){$(".youtube").on('click',function(){var iframe_url="https://www.youtube.com/embed/"+this.id+"?autoplay=1&autohide=1";var iframe='<iframe frameborder="0" src="'+iframe_url+'" style="width: 100%; height: 100%;"></iframe>'
+$('#ajax_youtube_modal').html(iframe).modal();})
+$('#ajax_youtube_modal').on($.modal.BEFORE_CLOSE,function(){$('#ajax_youtube_modal').html('');});});
